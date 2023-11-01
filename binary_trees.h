@@ -2,7 +2,10 @@
 #define BINARY_TREES.H
 
 /* Header files */
+#include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <stddef.h>
 
 /* Struct definitions */
 
