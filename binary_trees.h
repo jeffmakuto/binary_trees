@@ -1,5 +1,5 @@
-#ifndef BINARY_TREES.H
-#define BINARY_TREES.H
+#ifndef BINARY_TREES_H
+#define BINARY_TREES_H
 
 /* Header files */
 #include <stdio.h>
@@ -30,6 +30,9 @@ typedef struct binary_tree_s binary_tree_t;
 typedef struct binary_tree_s bst_t;
 typedef struct binary_tree_s avl_t;
 typedef struct binary_tree_s heap_t;
+
+/* Print prototype function */
+void binary_tree_print(const binary_tree_t *);
 
 /* Prototype functions */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
